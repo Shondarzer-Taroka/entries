@@ -1,0 +1,36 @@
+     
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>object to array and array to object</title>
+        <script>
+  
+   let object ={
+    a:9,
+    b:8,
+    c:7
+
+   }
+   console.log(object);
+   let arr= Object.entries(object)
+   console.log(arr)
+
+   let obja=Object.fromEntries(arr)
+   console.log(obja);
+
+
+   let array=[
+    ['a',9],['b',13],['c',14]
+   ]
+
+
+      let arrobject=Object.fromEntries(array)
+      console.log(arrobject);
+        </script>
+     </head>
+     <body>
+        object to array and array to object
+     </body>
+     </html>
